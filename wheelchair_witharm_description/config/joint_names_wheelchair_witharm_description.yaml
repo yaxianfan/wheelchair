@@ -1,0 +1,25 @@
+controller_joint_names: ['',  'wheel1_joint', 'wheel2_joint', 'wheel3_joint', 'wheel4_joint', '2dlaser1_joint', '2dlaser2_joint', '3dlaser_joint', 'camera_joint', ]
+gripper_joint_names:
+  - finger_joint
+
+gripper_joint_limits_min:
+  - 0.000
+
+gripper_joint_limits_max:
+  - 0.800
+
+joint_names:
+  - joint_1
+  - joint_2
+  - joint_3
+  - joint_4
+  - joint_5
+  - joint_6
+  - joint_7
+initial_joint_positions: "-J joint_1 1.57
+                        -J joint_2 -0.35
+                        -J joint_3 3.14
+                        -J joint_4 -2.00
+                        -J joint_5 0
+                        -J joint_6 -1.00
+                        -J joint_7 1.57"

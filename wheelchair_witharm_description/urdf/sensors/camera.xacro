@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="camera">
+<xacro:macro name="camera1">
+  <!-- Camera -->
+  <link name="camera_link">
+    <collision>
+      <origin xyz="-0.0448715996112585 -1.24067423001861E-14 -0.0040173060703157" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://wheelchair_witharm_description/meshes/camera_link.STL" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://wheelchair_witharm_description/meshes/camera_link.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <inertial>
+      <mass value="0" />  <!-- 1e-5 -->
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
+ 
+ </xacro:macro>
+</robot>
