@@ -7,3 +7,4 @@
 
 # velodyne_gazebo_plugins
 三维激光插件，需要和wheelchair一起放在src目录下
+在robot1文件夹中可以找到
